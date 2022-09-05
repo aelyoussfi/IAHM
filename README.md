@@ -1,1 +1,1 @@
-# FacialRecognition
+This script is to centralize the using of a given facial recognition model, all what you need to do is to install tkinter and other reequired modules (see requires.txt file), and run the script using: pip install IHM_Dlib.py
