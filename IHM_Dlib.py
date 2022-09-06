@@ -162,53 +162,16 @@ class App(tk.Frame):
         video_capture = cv2.VideoCapture(0)
 
         # Load a sample picture and learn how to recognize it.
-        azeddine_image = face_recognition.load_image_file("azeddine.jpeg")
-        azeddine_face_encoding = face_recognition.face_encodings(azeddine_image)[0]
-
-        # Load a second sample picture and learn how to recognize it.
-        yoann_image = face_recognition.load_image_file("yoann.jpg")
-        yoann_face_encoding = face_recognition.face_encodings(yoann_image)[0]
-
-        # Load a third sample picture and learn how to recognize it.
-        mehdi_image = face_recognition.load_image_file("mehdi.jpg")
-        mehdi_face_encoding = face_recognition.face_encodings(mehdi_image)[0]
-
-        # Load a fourth sample picture and learn how to recognize it.
-        honorat_image = face_recognition.load_image_file("honorat.png")
-        honorat_face_encoding = face_recognition.face_encodings(honorat_image)[0]
-
-        # Load a fifth sample picture and learn how to recognize it.
-        benoit_image = face_recognition.load_image_file("benoit.png")
-        benoit_face_encoding = face_recognition.face_encodings(benoit_image)[0]
-
-        # Load a fifth sample picture and learn how to recognize it.
-        Eric_image = face_recognition.load_image_file("Eric.jpg")
-        Eric_face_encoding = face_recognition.face_encodings(Eric_image)[0]
-
-        # Load a fifth sample picture and learn how to recognize it.
-        PJ_image = face_recognition.load_image_file("Pierre-jean.jpg")
-        PJ_face_encoding = face_recognition.face_encodings(PJ_image)[0]
-
+        Albert_image = face_recognition.load_image_file("albert.jpeg")
+        Albert_face_encoding = face_recognition.face_encodings(Albert_image)[0]
 
         # Create arrays of known face encodings and their names
         known_face_encodings = [
-            azeddine_face_encoding,
-            yoann_face_encoding,
-            mehdi_face_encoding,
-            honorat_face_encoding,
-            benoit_face_encoding,
-            Eric_face_encoding,
-            PJ_face_encoding
-
+            Albert_face_encoding
         ]
         known_face_names = [
-            "azeddine",
-            "yoann",
-            "mehdi",
-            "honorat",
-            "benoit",
-            "Eric",
-            "Pierre-J."
+            "Albert",
+            
         ]
 
         # Initialize some variables
