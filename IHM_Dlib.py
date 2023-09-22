@@ -135,14 +135,14 @@ class App(tk.Frame):
     def submit(self):  # Callback function for SUBMIT Button.
         self.text = self.text_field.get(1.0,"end-1c")  # For line 1, col 0 to end.
         name = self.text
-        Path('C:\\Users\\Documents\\IA\\smartHome\\metropole\\TrainPhotos\\'+name).mkdir(parents=True, exist_ok=True)
-        self.currentPath = 'C:\\Users\\Documents\\IA\\smartHome\\metropole\\TrainPhotos\\'+name
+        Path('main-file'+'\\TrainPhotos\\'+name).mkdir(parents=True, exist_ok=True)
+        self.currentPath = 'main-file'+\\TrainPhotos\\'+name
     
     def submit_verif(self):  # Callback function for SUBMIT Button.
         self.text1 = self.text_field1.get(1.0,"end-1c")  # For line 1, col 0 to end.
         name = self.text1
-        Path('C:\\Users\\Documents\\IA\\smartHome\\metropole\\verification\\'+name).mkdir(parents=True, exist_ok=True)
-        self.currentPath = 'C:\\Users\\Documents\\IA\\smartHome\\metropole\\verification\\'+name 
+        Path('main-file-verif'+\\verification\\'+name).mkdir(parents=True, exist_ok=True)
+        self.currentPath = 'main-file-verif'+\\verification\\'+name 
 ####################################################################################################
     def videoLoop(self):
         No=0
