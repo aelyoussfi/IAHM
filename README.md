@@ -5,3 +5,5 @@ This script is to centralize the using of a given facial recognition model, all 
 ## Install what you need:
 to install required modules, we can use the command: 
 `pip install -r /path/to/requires.txt`
+## Disclaimer:
+Make sure to update files path of your data base and camera parameter
